@@ -3,146 +3,155 @@
     <head>
         <title>Camera Obscura | Store</title>
         <meta name="description" content="This is the description">  
+        <link rel="stylesheet" href="styles.css">
+        <script src="store.js" async></script>
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Camera Obscura</h1>
+            <h1 class="band-name band-name-large">Camera Obscura</h1>
         </header>
 
-        <section>
-            <h2>MUSIC</h2>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
 
-            <div>
-                <div>
-                    <strong>Underachievers</strong>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Biggest, Bluest, Hi-Fi</span>
+                    <img class="shop-item-image" src="Images/Biggest, Bluest.jpeg" width="375" alt="Biggest, Bluest">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£8.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <img src="Images/Under Achievers.png" width="400" alt="Under Achievers">
-                <div>
-                    <span>£12.99</span>
-                    <button role="button">ADD TO CART</button>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Underachievers</span>
+                    <img class="shop-item-image" src="Images/Under Achievers.png" width="375" alt="Under Achievers">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£12.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Lets Get Out Of This Country</span>
+                    <img class="shop-item-image" src="Images/Lets Get Out Of This Country.jpeg" width="375" alt="Lets Get Out of This Country">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£14.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">My Maudlin Career</span>
+                    <img class="shop-item-image" src="Images/My Maudline Career.jpeg" width="375" alt="My Maudlin Career">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£10.50</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Desire Lines</span>
+                    <img class="shop-item-image" src="Images/Desire Lines.jpeg" width="375" alt="Desire Lines">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£16.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Rare UK Bird</span>
+                    <img class="shop-item-image" src="Images/Rare UK Bird.jpg" width="375" alt="Rare UK Bird">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£18.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div>
-                <div>
-                    <strong>Lets Get Out Of This Country</strong>
-                </div>
-                <img src="Images/Lets Get Out Of This Country.jpeg" width="400" alt="Lets Get Out of This Country">
-                <div>
-                    <span>£14.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
 
-            <div>
-                <div>
-                    <strong>My Maudlin Career</strong>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Tee Shirt</span>
+                    <img class="shop-item-image" src="Images/Tee Shirt.png" width="375"  alt="Tee Shirt">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£18.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <img src="Images/My Maudline Career.jpeg" width="400" alt="My Maudlin Career">
-                <div>
-                    <span>£10.50</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
 
-            <div>
-                <div>
-                    <strong>Desire Lines</strong>
+                <div class="shop-item">
+                    <span class="shop-item-title">Tour Poster</span>
+                    <img class="shop-item-image" src="Images/Tour Post.jpeg" width="375" height="375"  alt="Tour Poster">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£14.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <img src="Images/Desire Lines.jpeg" width="400" alt="Desire Lines">
-                <div>
-                    <span>£16.99</span>
-                    <button role="button">ADD TO CART</button>
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">Poster</span>
+                    <img class="shop-item-image" src="Images/Poster.png" width="300" height="400" alt="Poster">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">£24.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>MERCH</h2>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
 
-            <div>
-                <div>
-                    <strong>Tee Shirt</strong>
-                </div>
-                <img src="Images/Tee Shirt.png" width="400"  alt="Tee Shirt">
-                <div>
-                    <span>£18.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
+            <div class="cart-row"> 
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
 
-            <div>
-                <div>
-                    <strong>Poster</strong>
-                </div>
-                <img src="Images/Poster.png" width="400" alt="Poster">
-                <div>
-                    <span>£24.99</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
+            <div class="cart-items">
+    
+            </div>  
+            <div class="cart-total">
+                <span class="cart-total-title">Total</span>
+                <span class="cart-total-price">£0</span>
             </div>
-
-        </section>
-
-        <section>
-            <h2>CART</h2>
-
-            <div>
-                <strong>ITEM</strong>
-                <strong>PRICE</strong>
-                <strong>QUANTITY</strong>
-            </div>
-            <div>
-                <img src="images/Desire Lines.jpeg" width="100" alt="Desire Lines">
-                <span>Desire Lines</span>
-                <span>£19.99</span>
-                <input type="number" value="1">
-                <button role="button">Remove</button>
-            </div>
-            <div>
-                <img src="images/Tee Shirt.png" width="100" alt="Desire Lines">
-                <span>Tee Shirt</span>
-                <span>£24.99</span>
-                <input type="number" value="1">
-                <button role="button">Remove</button>
-            </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>£34.99</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
-        </section>
-
-        <footer>
-            <h3>Camera Obscura</h3>
-            <ul>
-                <li>
-                    <a href="https://youtube.com" target="_blank">
-                        <img src="Images/YouTube Logo.png" width="50" alt="YouTube">
-                    </a>
-                </li>
         
-                <li>
-                    <a href="https://spotify.com" target="_blank">
-                        <img src="Images/Spotify Logo.png" width="50" alt="Spotify">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="Images/Facebook Logo.png" width="50" alt="Facebook">
-                    </a>
-                </li>
-            </ul>
+            <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+
+        </section>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Socials</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png" width="50" alt="YouTube">
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a href="https://spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png" width="50" alt="Spotify">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png" width="50" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
