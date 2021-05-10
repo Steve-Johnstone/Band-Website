@@ -23,6 +23,17 @@ function ready() {
     for (let i = 0; i < addButtons.length; i++) {
         addButtons[i].addEventListener('click', addCartItem);
         }
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
+}
+
+function purchaseClicked() {
+    alert('Thank you for your purchase mother fucker!');
+    let cartItems = document.getElementsByClassName('cart-items')[0];
+
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal();
 }
 
 function removeCartItem(event) {
